@@ -92,8 +92,8 @@ img:hover {
 
 .about {
     position: fixed;
-    top: 100px;
-    left: 100px;
+    top: 10px;
+    left: 10px;
     cursor: pointer;
     transition: all 0.3s;
     height: 80px;
