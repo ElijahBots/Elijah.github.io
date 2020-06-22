@@ -89,3 +89,7 @@ p:hover {
     border-bottom: 2px dotted #cfd8dc;
     padding-bottom: 5px
 }
+
+.about {
+    padding: 25px 35px;
+}
