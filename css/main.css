@@ -76,7 +76,7 @@ img:hover {
     padding-bottom: 10px;
 }
  
-p {
+.onclick {
     font-family: "Roboto Mono", monospace;
     float: right;
     cursor: pointer;
@@ -85,11 +85,27 @@ p {
     transition: all 0.2s;
 }
 
-p:hover {
+.onclick:hover {
     border-bottom: 2px dotted #cfd8dc;
     padding-bottom: 5px
 }
 
 .about {
-    padding: 25px 35px;
+    position: fixed;
+    top: 100px;
+    left: 100px;
+    cursor: pointer;
+    transition: all 0.3s;
+    height: 80px;
+    size: 80px;
+}
+
+.fish {
+    position: fixed;
+    top: 300px;
+    left: 300px;
+    cursor: pointer;
+    transition: all 0.3s;
+    height: 200px;
+    size: 200px;
 }
