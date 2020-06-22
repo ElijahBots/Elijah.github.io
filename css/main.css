@@ -109,3 +109,15 @@ img {
     width: 150px;
     height: 150px;
 }
+
+.aboutHeader {
+    text-align: center;
+    color: #ffffff;
+    top: 10px;
+}
+
+.aboutText {
+    text-align: center;
+    color: #ffffff;
+    top: 20px;
+}
