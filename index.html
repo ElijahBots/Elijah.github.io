@@ -116,28 +116,36 @@
             <table>
                 <thead>
                     <tr>
-                        <th><strong>General commands using the default prefix: "!"</strong></th>
+                        <th><strong>General commands </strong></th>
                         <th><strong>Args: ( ) = optional [ ] = must</strong></th>
-                        <th>Description</th>
+                        <th><strong>Description</strong></th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td><strong>!profile.</strong></td>
+                        <td><strong>!profile</strong></td>
                         <td><strong>(</strong>tag<strong>)</strong></td>
                         <td>Shows your profile</td>
                     </tr>
                     <tr>
-                        <td><strong>!buy</strong></td>
-                        <td><strong>[</strong>field<strong>/</strong>animal<strong>]
-                            [</strong>field-number<strong>/</strong>animal-name<strong>]</strong></td>
-                        <td>Buy command.</td>
+                        <td><strong>!buy field</strong></td>
+                        <td><strong>[</strong>field number<strong>]</strong></td>
+                        <td>Buy a field (section).</td>
                     </tr>
                     <tr>
-                        <td><strong>!sell</strong></td>
-                        <td><strong>[</strong>field<strong>/</strong>animal<strong>]
-                            [</strong>field-number<strong>/</strong>animal-name<strong>]</strong></td>
-                        <td>Sell command.</td>
+                        <td><strong>!buy animal</strong></td>
+                        <td><strong>[</strong>animal name<strong>]</strong></td>
+                        <td>Buy an animal for your field (section).</td>
+                    </tr>
+                    <tr>
+                        <td><strong>!sell field</strong></td>
+                        <td><strong>[</strong>field number<strong>]</strong></td>
+                        <td>Sell a field (section).</td>
+                    </tr>
+                    <tr>
+                        <td><strong>!sell animal</strong></td>
+                        <td><strong>[</strong>animal name<strong>]</strong></td>
+                        <td>Sell an animal.</td>
                     </tr>
                     <tr>
                         <td><strong>!bal</strong></td>
@@ -174,19 +182,26 @@
             <table class="alt">
                 <thead>
                     <tr>
-                        <th><strong>Admin commands using the default prefix: "!"</strong></th>
+                        <th><strong>Admin commands</strong></th>
                         <th><strong>Args: ( ) = optional [ ] = must</strong></th>
-                        <th>Description</th>
+                        <th><strong>Description</strong></th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td><strong>!set</strong></td>
-                        <td><strong>[</strong>announce<strong>/</strong>channel<strong>/</strong>current<strong>] [</strong>on-off<strong>/</strong>channel-ID<strong>]</strong></td>
-                        <td>Settings command, set
-                            the hourly payment announcement channel ID,<br>
-                            set the hourly payment announcement on or off option<br>
-                            and check the current channel ID and announce option.</td>
+                        <td><strong>!set announce</strong></td>
+                        <td><strong>[</strong>on<strong>/</strong>off<strong>]</strong></td>
+                        <td>Sets the hourly announcement on or off.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>!set channel</strong></td>
+                        <td><strong>[</strong>ID<strong>]</strong></td>
+                        <td>Sets the hourly announcement channel.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>!set current</strong></td>
+                        <td></td>
+                        <td>Shows the current settings.</td>
                     </tr>
                     <tr>
                         <td><strong>!prefix</strong></td>
