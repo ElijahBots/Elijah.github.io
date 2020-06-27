@@ -2356,7 +2356,6 @@ input, select, textarea {
 		border-radius: 4px;
 		border: 0;
 		display: inline-block;
-		position: relative;
 	}
 
 		.image img {
@@ -3539,10 +3538,14 @@ input, select, textarea {
 		text-decoration: none;
 	  }
 	  
-	  .coolnavli a:hover {
+	  .coolnavli a:hover:not(.active) {
 		background-color: #5ac6d4;
 	  }
-	  
+
 	  .active {
 		background-color: #3545d3;
+	  }
+	  @media screen and (max-width: 1000px) {
+		.coolnavlu .coolnavli.right, 
+		.coolnavlu .coolnavli {float: none;}
 	  }
