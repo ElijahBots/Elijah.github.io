@@ -3537,7 +3537,7 @@ input, select, textarea {
 	  .active {
 		background-color: #3545d3;
 	  }
-	  @media screen and (max-width: 600px) {
-		.coolnavul.topnav .coolnavli.right, 
-		.coolnavlu.topnav .coolnavli {float: none;}
+	  @media screen and (max-width: 1000px) {
+		.coolnavul .coolnavli.right, 
+		.coolnavlu .coolnavli {float: none;}
 	  }
