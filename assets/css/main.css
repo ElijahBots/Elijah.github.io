@@ -176,13 +176,11 @@ input, select, textarea {
 
 	sub {
 		font-size: 0.8em;
-		position: relative;
 		top: 0.5em;
 	}
 
 	sup {
 		font-size: 0.8em;
-		position: relative;
 		top: -0.5em;
 	}
 
@@ -2010,7 +2008,6 @@ input, select, textarea {
 	header p {
 		color: #999;
 		margin: 0 0 1.5em 0;
-		position: relative;
 	}
 
 	header h2 + p {
@@ -2167,7 +2164,6 @@ input, select, textarea {
 			font-weight: 300;
 			padding-left: 2.4em;
 			padding-right: 0.75em;
-			position: relative;
 		}
 
 			input[type="checkbox"] + label:before,
@@ -2268,7 +2264,6 @@ input, select, textarea {
 	.icon {
 		text-decoration: none;
 		border-bottom: none;
-		position: relative;
 	}
 
 		.icon:before {
@@ -2920,7 +2915,6 @@ input, select, textarea {
 		background-position: top left,						center center,					center center;
 		background-size: auto,							cover,							cover;
 		overflow: hidden;
-		position: relative;
 		text-align: center;
 	}
 
@@ -3019,7 +3013,6 @@ input, select, textarea {
 			justify-content: center;
 			margin-top: 2.5em;
 			margin-left: 0;
-			position: relative;
 		}
 
 			#header .actions li:first-child {
@@ -3050,7 +3043,6 @@ input, select, textarea {
 			-ms-transform: scale(1);
 			transform: scale(1);
 			opacity: 1;
-			position: relative;
 			z-index: 1;
 		}
 
@@ -3520,7 +3512,7 @@ input, select, textarea {
 		list-style-type: none;
 		margin: 0;
 		padding: 0;
-		overflow: hidden;
+		overflow: show;
 		position: fixed;
 		top: 0;
 		width: 100%;
@@ -3545,7 +3537,7 @@ input, select, textarea {
 	  .active {
 		background-color: #3545d3;
 	  }
-	  @media screen and (max-width: 1000px) {
-		.coolnavlu .coolnavli.right, 
-		.coolnavlu .coolnavli {float: none;}
+	  @media screen and (max-width: 600px) {
+		.coolnavul.topnav .coolnavli.right, 
+		.coolnavlu.topnav .coolnavli {float: none;}
 	  }
