@@ -3504,7 +3504,6 @@ input, select, textarea {
 
 	.coolnavlu {
 		background-color: #4686a0;
-		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
 		background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #7c4bcc, #4b58cc 50%, #5ac6d4 95%);
 		background-position: top left,						center center,					center center;
@@ -3512,8 +3511,7 @@ input, select, textarea {
 		list-style-type: none;
 		margin: 0;
 		padding: 0;
-		overflow: show;
-		position: fixed;
+		position: absolute;
 		top: 0;
 		width: 100%;
 	  }
@@ -3525,9 +3523,7 @@ input, select, textarea {
 	  .coolnavli a {
 		display: block;
 		color: white;
-		text-align: center;
 		padding: 14px 16px;
-		text-decoration: none;
 	  }
 	  
 	  .coolnavli a:hover:not(.active) {
